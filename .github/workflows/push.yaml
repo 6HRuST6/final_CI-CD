@@ -10,7 +10,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    container: golang:1.24.3
+    container: golang:1.25
 
     steps:
       - name: Checkout
